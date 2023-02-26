@@ -193,7 +193,7 @@ def insert_item(conn, insert_title_entry, insert_price_entry, insert_clicked):
         return
     cursor = conn.cursor()
 
-
+    # Must be the same order as the database
     value = ["Atari", "Intellivision", "PlayStation", "PlayStation 2", "PlayStation 3",
      "PlayStation 4", "PlayStation Vita", "PSP", "Xbox", "Xbox 360",
      "Xbox One", "NES", "SNES", "Nintendo 64", "GameCube", "Wii", "Wii U", "Nintendo Switch",

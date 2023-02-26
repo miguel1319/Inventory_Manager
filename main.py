@@ -116,6 +116,7 @@ Label(Insert_Frame, text="Price").pack(pady=4)
 Insert_Clicked = StringVar()
 Insert_Clicked.set("Select a Console")
 
+# can be in any order
 Console_Options = ["Intellivision", "Atari", "PlayStation", "PlayStation 2", "PlayStation 3",
                    "PlayStation 4", "PlayStation Vita", "PSP", "Xbox", "Xbox 360",
                    "Xbox One", "NES", "SNES", "Nintendo 64", "GameCube", "Wii", "Wii U", "Nintendo Switch",
